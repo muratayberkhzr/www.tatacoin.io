@@ -1,0 +1,132 @@
+.contact-social{
+    margin-top: inherit;
+}
+.social-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.social-links li{
+    margin-bottom: 5px;
+}
+.social-links li a{
+    display: flex;
+    font-size: 32px;
+    height: 64px;
+    width: 64px;
+    line-height: 64px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.contact-list li{
+    align-items: center;
+    justify-content: center;
+}
+
+/*.has-dark.is-dark .header-main{
+    background: black;
+}*/
+.inner-pages{
+    padding-top: 120px;
+}
+#profileModal label{
+    margin-bottom: 0;
+}
+.mandatory{
+    color: red;
+}
+
+.holders .team-social li a {
+    font-size: 16px;
+    line-height: 31px;
+    height: 28px;
+    width: 28px;
+}
+.submit-wrap .btn-icon{
+    min-width: 45px;
+}
+.form-control:disabled, .form-control[readonly] {
+    background-color: #e9ecef;
+    opacity: 1;
+}
+.btn-success.disabled, .btn-success:disabled
+, .btn-grad.disabled, .btn-grad:disabled
+
+{
+    cursor: not-allowed;
+    color: #fff;
+    background: #6c757d;
+    border-color: #6c757d;
+}
+.section-about ul{
+    list-style: square;
+    color: #8284a5;
+    padding-left: 18px;
+}
+strong, b{
+    font-size: 18px;
+}
+
+.roadmap .list-dot li:before{
+    top: 6px;
+    transform: translateY(-50%);
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    background: #595e70;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    font-size: .68rem;
+    content: '\f110';
+    animation: loader 1s infinite;
+}
+.roadmap .list-dot li.completed:before{
+    background: #2b56f5;
+    content: '\f00c';
+    animation: none;
+    top: 16px;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0)
+    }
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.list-dot li{
+    padding-left: 28px
+}
+#WEB3_CONNECT_MODAL_ID{
+    position: absolute;
+    z-index: 10;
+}
+.walletconnect-qrcode__base.animated{
+    visibility: visible;
+}
+
+@media (min-width: 576px){
+    .btn-sm.btn-grad {
+        padding: 5px 12px;
+    }
+
+    .partner-logo-lg {
+        width: 20%;
+    }
+}
+@media (min-width: 992px)
+{
+    .roadmap-step {
+        padding: 30px 20px 30px;
+    }
+}
